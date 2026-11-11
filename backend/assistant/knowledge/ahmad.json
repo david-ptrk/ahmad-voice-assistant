@@ -1,0 +1,34 @@
+{
+    "person": {
+        "full_name": "Hafiz Ahmad Ali",
+        "display_name": "Sir Ahmad",
+        "profession": "CTO and Founder",
+        "hometown": "Gujranwala"
+    },
+    "brand": {
+        "name": "AhmiXen AI",
+        "description": "AhmiXen AI helps people stay ahead in the AI-powered world with practical insights on artificial intelligence, future jobs, business opportunities and emerging technology.",
+        "topics": [
+            "How AI is changing careers and industries",
+            "Using AI tools to increase productivity",
+            "Building income using AI",
+            "Future-ready skills",
+            "Emerging technology trends"
+        ],
+        "website": "https://ahmixen.com"
+    },
+    "mentorship": {
+        "name": "AX Mentorship",
+        "website": "https://ahmixen-omega.vercel.app/"
+    },
+    "contact": {
+        "business_email": "ahmadalihafiz@icloud.com"
+    },
+    "social_media": {
+        "personal_linkedin": "https://www.linkedin.com/in/hafizahmadali/",
+        "company_linkedin": "https://www.linkedin.com/company/ahmixen/posts/",
+        "facebook": "https://www.facebook.com/p/AhmiXen-61583933189223/",
+        "youtube": "https://www.youtube.com/@ahmixen",
+        "instagram": "https://www.instagram.com/ahmimindset"
+    }
+}
