@@ -133,3 +133,7 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+]
