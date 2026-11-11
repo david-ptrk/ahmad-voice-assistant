@@ -209,3 +209,67 @@ body {
     max-width: 95%;
   }
 }
+
+.voice-status {
+  color: #c084fc;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.orb {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.orb.listening {
+  animation: pulse 1.2s infinite;
+  box-shadow: 0 0 65px #9333eaaa;
+}
+
+.orb.speaking {
+  animation: pulse 0.7s infinite;
+  box-shadow: 0 0 65px #c084fcaa;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.12);
+  }
+}
+
+.voice-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.mic-button,
+.stop-button {
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: 1px solid #9333ea;
+  background: #54218a;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.stop-button {
+  background: #29212f;
+  border-color: #51445d;
+}
+
+.mic-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #f87171;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 12px;
+}
