@@ -141,6 +141,7 @@ MAILERS = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://ahmad-voice-assistant.vercel.app",
 ]
 
 STATIC_URL = "static/"
